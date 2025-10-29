@@ -28,5 +28,6 @@ public class Q22 {
         } else {
             System.out.println("Element " + key + " not found in the array.");
         }
+        sc.close();
     }
 }

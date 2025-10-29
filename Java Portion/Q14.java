@@ -28,5 +28,6 @@ public class Q14 {
         }
 
         System.out.println("Grade: " + grade);
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class Q21 {
             sum += arr[i];
         }
         System.out.println(sum);
+        sc.close();
     }
 }

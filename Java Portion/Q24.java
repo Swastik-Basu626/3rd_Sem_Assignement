@@ -10,5 +10,6 @@ public class Q24 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
