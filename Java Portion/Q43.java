@@ -19,7 +19,6 @@ public class Q43 {
         }
         System.out.println("Valid number accepted: " + num);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
