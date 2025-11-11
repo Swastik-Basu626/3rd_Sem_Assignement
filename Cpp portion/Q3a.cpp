@@ -11,11 +11,11 @@ int main(){
     for(int i=0;i<n;i++){
         int count=1;
         for(int j=i+1;j<n;j++){
-            if(str[i]==str[j]){
+            if(str[i]==str[j] || str[i]+32==str[j] || str[i]-32==str[j]){
                 max = std::max(max,count++);
             }
         }
     }
-    cout<<max+1<<endl;
+    cout << "Maximum occurring character: " << max+1 << endl;
     return 0;
 }
